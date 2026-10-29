@@ -1,0 +1,112 @@
+body{
+  font-family: sans-serif;
+  background-image: url('2.jpeg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  margin: 24px;
+
+}
+h3{
+    margin-left:50px;
+    margin-right:50px;
+}
+h1{
+    text-align: center;
+    color:#ffffff;
+}
+.b{
+    text-align: center;
+    color:#ffffff;
+
+}
+header{
+    
+}
+
+ul{
+    color: white;
+}
+nav{
+    text-align: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.a{
+    text-align: center;
+    color:#ffffff;
+    font-size: 20px;
+
+}
+h2{
+    color:#ffffff;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+.c{
+    color:#ffffff;
+    text-align: center;
+}
+.q{
+    text-align: center;
+}
+.card {
+    background: rgba(0, 0, 0, 0.6); 
+    margin: 20px auto;          
+    padding: 20px;                  
+    max-width: 800px;           
+    border-radius: 8px;             
+}
+
+.card-geralt {
+    border-left: 5px solid #590808;  
+}
+
+.card-plot {
+    border-left: 5px solid #0d4014;  
+}
+
+
+.highlight {
+    color: #ede04e;                 
+    font-weight: bold;
+}
+
+.accent-text {
+    border-bottom: 2px dashed #b30000; 
+    color: #ff4d4d;
+}
+.card-card-image {
+    border-left: 5px solid #706c60; 
+}
+.card-card-video {
+    border-left: 5px solid #1a167d; 
+}
+iframe{
+    width:660px;
+    height:352px;
+}
+@media(max-width: 600px){
+    
+    iframe{
+    width:350px;
+    height:180px;
+}
+
+body{
+    background-image: url('3.jpeg');
+}
+}
+
+
+
